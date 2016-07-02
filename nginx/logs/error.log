@@ -1,0 +1,430 @@
+2016/06/19 21:02:38 [emerg] 13384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:38 [emerg] 13384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:38 [emerg] 13384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:38 [emerg] 13384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:38 [emerg] 13384#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:38 [emerg] 13384#0: still could not bind()
+2016/06/19 21:02:52 [emerg] 13456#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:52 [emerg] 13456#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:52 [emerg] 13456#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:52 [emerg] 13456#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:52 [emerg] 13456#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/19 21:02:52 [emerg] 13456#0: still could not bind()
+2016/06/19 21:34:02 [error] 1517#0: *1 "/usr/local/nginx/html/clientLive/index.html" is not found (2: No such file or directory), client: 201.230.158.198, server: localhost, request: "GET /clientLive/ HTTP/1.1", host: "52.38.144.179"
+2016/06/19 21:34:04 [error] 1517#0: *1 "/usr/local/nginx/html/clientLive/index.html" is not found (2: No such file or directory), client: 201.230.158.198, server: localhost, request: "GET /clientLive/ HTTP/1.1", host: "52.38.144.179"
+2016/06/19 21:39:07 [error] 1517#0: *7 open() "/usr/local/nginx/html/status" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /status?full=true HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:07 [error] 1517#0: *9 open() "/usr/local/nginx/html/jmx-console" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /jmx-console HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:07 [error] 1517#0: *10 open() "/usr/local/nginx/html/manager/html" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /manager/html HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *12 open() "/usr/local/nginx/html/administrator" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET //administrator HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *13 open() "/usr/local/nginx/html/joomla/administrator" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /joomla/administrator HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *14 open() "/usr/local/nginx/html/cms/administrator" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /cms/administrator HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *15 open() "/usr/local/nginx/html/Joomla/administrator" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /Joomla/administrator HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *16 open() "/usr/local/nginx/html/msd" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /msd HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *17 open() "/usr/local/nginx/html/mySqlDumper" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /mySqlDumper HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *18 open() "/usr/local/nginx/html/msd1.24stable" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /msd1.24stable HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:08 [error] 1517#0: *19 open() "/usr/local/nginx/html/msd1.24.4" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /msd1.24.4 HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *20 open() "/usr/local/nginx/html/mysqldumper" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /mysqldumper HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *21 open() "/usr/local/nginx/html/MySQLDumper" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /MySQLDumper HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *22 open() "/usr/local/nginx/html/mysql" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /mysql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *23 open() "/usr/local/nginx/html/sql" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /sql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *24 open() "/usr/local/nginx/html/cgi-bin/php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /cgi-bin/php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *25 open() "/usr/local/nginx/html/cgi-bin/php5" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /cgi-bin/php5 HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:09 [error] 1517#0: *26 open() "/usr/local/nginx/html/phpmyadmin" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /phpmyadmin HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *27 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *28 open() "/usr/local/nginx/html/mysql" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /mysql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *29 open() "/usr/local/nginx/html/sql" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /sql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *30 open() "/usr/local/nginx/html/myadmin" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /myadmin HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *32 open() "/usr/local/nginx/html/sqlite/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /sqlite/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *33 open() "/usr/local/nginx/html/SQLite/SQLiteManager-1.2.4/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /SQLite/SQLiteManager-1.2.4/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:10 [error] 1517#0: *34 open() "/usr/local/nginx/html/SQLiteManager-1.2.4/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /SQLiteManager-1.2.4/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:11 [error] 1517#0: *35 open() "/usr/local/nginx/html/sqlitemanager/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /sqlitemanager/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:11 [error] 1517#0: *36 open() "/usr/local/nginx/html/SQlite/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /SQlite/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:11 [error] 1517#0: *37 open() "/usr/local/nginx/html/SQLiteManager/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /SQLiteManager/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:12 [error] 1517#0: *38 open() "/usr/local/nginx/html/webdav" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /webdav HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:12 [error] 1517#0: *40 open() "/usr/local/nginx/html/wp-login.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET //wp-login.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:12 [error] 1517#0: *41 open() "/usr/local/nginx/html/wordpress/wp-login.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /wordpress/wp-login.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:12 [error] 1517#0: *42 open() "/usr/local/nginx/html/wp/wp-login.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /wp/wp-login.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:13 [error] 1517#0: *43 open() "/usr/local/nginx/html/blog/wp-login.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /blog/wp-login.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:13 [error] 1517#0: *44 open() "/usr/local/nginx/html/Wordpress/wp-login.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /Wordpress/wp-login.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:39:13 [error] 1517#0: *45 open() "/usr/local/nginx/html/Blog/wp-login.php" failed (2: No such file or directory), client: 75.103.110.47, server: localhost, request: "GET /Blog/wp-login.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/19 21:49:15 [error] 1517#0: *50 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 201.230.158.198, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "52.38.144.179"
+2016/06/20 00:42:58 [error] 1517#0: *57 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 118.123.119.94, server: localhost, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/06/20 04:23:30 [error] 1517#0: *58 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 117.23.4.14, server: localhost, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/06/20 04:47:20 [error] 1517#0: *59 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 118.123.119.94, server: localhost, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:19:01 [emerg] 6953#0: still could not bind()
+2016/06/20 07:19:54 [error] 6959#0: *1 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/"
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: bind() to 0.0.0.0:1935 failed (98: Address already in use)
+2016/06/20 07:24:57 [emerg] 6963#0: still could not bind()
+2016/06/20 07:25:14 [notice] 6967#0: signal process started
+2016/06/20 07:25:14 [alert] 6967#0: kill(6958, 15) failed (3: No such process)
+2016/06/20 08:28:10 [error] 2138#0: *4 open() "/usr/local/nginx/html/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:28:10 [error] 2138#0: *5 open() "/usr/local/nginx/html/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /jair/index.m3u8 HTTP/1.0", host: "52.38.144.179"
+2016/06/20 08:28:11 [error] 2138#0: *6 open() "/usr/local/nginx/html/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /jair/index.m3u8 HTTP/1.0", host: "52.38.144.179:80"
+2016/06/20 08:28:27 [error] 2138#0: *7 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:28:27 [error] 2138#0: *8 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179"
+2016/06/20 08:28:28 [error] 2138#0: *9 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179:80"
+2016/06/20 08:30:31 [error] 2138#0: *11 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:30:31 [error] 2138#0: *12 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179"
+2016/06/20 08:30:32 [error] 2138#0: *13 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179:80"
+2016/06/20 08:35:22 [error] 2138#0: *15 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:35:22 [error] 2138#0: *16 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179"
+2016/06/20 08:35:23 [error] 2138#0: *17 open() "/usr/local/nginx/html/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: localhost, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179:80"
+2016/06/20 08:35:40 [emerg] 2248#0: unknown directive "stub_status" in /usr/local/nginx/conf/nginx.conf:73
+2016/06/20 08:37:21 [notice] 2295#0: using the "epoll" event method
+2016/06/20 08:37:21 [notice] 2295#0: nginx/1.10.1
+2016/06/20 08:37:21 [notice] 2295#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+2016/06/20 08:37:21 [notice] 2295#0: OS: Linux 3.13.0-74-generic
+2016/06/20 08:37:21 [notice] 2295#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/06/20 08:37:21 [notice] 2296#0: start worker processes
+2016/06/20 08:37:21 [notice] 2296#0: start worker process 2299
+2016/06/20 08:37:21 [notice] 2296#0: start cache manager process 2300
+2016/06/20 08:37:23 [notice] 2296#0: signal 15 (SIGTERM) received, exiting
+2016/06/20 08:37:23 [notice] 2300#0: exiting
+2016/06/20 08:37:23 [notice] 2296#0: signal 17 (SIGCHLD) received
+2016/06/20 08:37:23 [notice] 2296#0: cache manager process 2300 exited with code 0
+2016/06/20 08:37:23 [notice] 2296#0: signal 29 (SIGIO) received
+2016/06/20 08:37:23 [notice] 2299#0: exiting
+2016/06/20 08:37:23 [notice] 2299#0: exit
+2016/06/20 08:37:23 [notice] 2296#0: signal 17 (SIGCHLD) received
+2016/06/20 08:37:23 [notice] 2296#0: worker process 2299 exited with code 0
+2016/06/20 08:37:23 [notice] 2296#0: exit
+2016/06/20 08:37:24 [notice] 2329#0: using the "epoll" event method
+2016/06/20 08:37:24 [notice] 2329#0: nginx/1.10.1
+2016/06/20 08:37:24 [notice] 2329#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+2016/06/20 08:37:24 [notice] 2329#0: OS: Linux 3.13.0-74-generic
+2016/06/20 08:37:24 [notice] 2329#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/06/20 08:37:24 [notice] 2330#0: start worker processes
+2016/06/20 08:37:24 [notice] 2330#0: start worker process 2333
+2016/06/20 08:37:24 [notice] 2330#0: start cache manager process 2334
+2016/06/20 08:37:32 [info] 2333#0: *1 client connected '52.38.144.179'
+2016/06/20 08:37:32 [info] 2333#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://52.38.144.179:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:37:32 [info] 2333#0: *1 createStream, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:37:32 [info] 2333#0: *1 publish: name='jair' args='' type=live silent=0, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:37:32 [info] 2333#0: *1 exec: starting managed child 'ffmpeg', client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:37:41 [error] 2333#0: *2 open() "/HLS/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:37:42 [info] 2333#0: *2 recv() failed (104: Connection reset by peer), client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:37:42 [error] 2333#0: *3 open() "/HLS/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179"
+2016/06/20 08:37:42 [info] 2333#0: *3 recv() failed (104: Connection reset by peer), client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179"
+2016/06/20 08:37:43 [error] 2333#0: *4 open() "/HLS/live/jair/index.m3u8" failed (2: No such file or directory), client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179:80"
+2016/06/20 08:37:43 [info] 2333#0: *4 recv() failed (104: Connection reset by peer), client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.0", host: "52.38.144.179:80"
+2016/06/20 08:38:09 [info] 2333#0: *1 deleteStream, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:38:09 [info] 2333#0: *1 exec: terminating child 2336, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:38:09 [notice] 2333#0: signal 17 (SIGCHLD) received
+2016/06/20 08:38:09 [alert] 2333#0: unknown process 2336 exited on signal 9
+2016/06/20 08:38:09 [info] 2333#0: *1 disconnect, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:38:09 [info] 2333#0: *1 deleteStream, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:38:27 [info] 2333#0: *5 client connected '127.0.0.1'
+2016/06/20 08:38:27 [info] 2333#0: *5 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:38:27 [info] 2333#0: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:38:27 [info] 2333#0: *5 publish: name='jair' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:38:27 [info] 2333#0: *5 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:38:48 [info] 2333#0: *7 recv() failed (104: Connection reset by peer) while sending response to client, client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/1.ts HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:38:59 [info] 2333#0: *9 recv() failed (104: Connection reset by peer) while sending response to client, client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:39:00 [info] 2333#0: *8 recv() failed (104: Connection reset by peer) while sending response to client, client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/2.ts HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:39:08 [info] 2333#0: *11 client prematurely closed connection while sending response to client, client: 201.230.158.92, server: 192.168.254.178, request: "GET /live/jair/4.ts HTTP/1.1", host: "52.38.144.179"
+2016/06/20 08:39:59 [info] 2333#0: *13 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:40:34 [info] 2333#0: *5 exec: child 2338 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:40:34 [info] 2333#0: *5 exec: terminating child 2338, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:40:34 [notice] 2333#0: signal 17 (SIGCHLD) received
+2016/06/20 08:40:34 [notice] 2333#0: unknown process 2338 exited with code 1
+2016/06/20 08:40:34 [info] 2333#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:40:39 [info] 2333#0: *5 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:41:39 [info] 2333#0: *17 client 54.174.33.17 closed keepalive connection
+2016/06/20 08:42:46 [info] 2333#0: *5 exec: child 2347 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:42:46 [info] 2333#0: *5 exec: terminating child 2347, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:42:46 [notice] 2333#0: signal 17 (SIGCHLD) received
+2016/06/20 08:42:46 [notice] 2333#0: unknown process 2347 exited with code 1
+2016/06/20 08:42:46 [info] 2333#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:42:51 [info] 2333#0: *5 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:43:19 [info] 2333#0: *19 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:44:59 [info] 2333#0: *5 exec: child 2364 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:44:59 [info] 2333#0: *5 exec: terminating child 2364, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:44:59 [notice] 2333#0: signal 17 (SIGCHLD) received
+2016/06/20 08:44:59 [notice] 2333#0: unknown process 2364 exited with code 1
+2016/06/20 08:44:59 [info] 2333#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:45:04 [info] 2333#0: *5 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:47:11 [info] 2333#0: *5 exec: child 2366 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:47:11 [info] 2333#0: *5 exec: terminating child 2366, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:47:11 [notice] 2333#0: signal 17 (SIGCHLD) received
+2016/06/20 08:47:11 [notice] 2333#0: unknown process 2366 exited with code 1
+2016/06/20 08:47:11 [info] 2333#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:47:16 [info] 2333#0: *5 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:49:23 [info] 2333#0: *5 exec: child 2369 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:49:23 [info] 2333#0: *5 exec: terminating child 2369, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:49:23 [notice] 2333#0: signal 17 (SIGCHLD) received
+2016/06/20 08:49:23 [notice] 2333#0: unknown process 2369 exited with code 1
+2016/06/20 08:49:23 [info] 2333#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:49:28 [info] 2333#0: *5 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:49:56 [notice] 2330#0: signal 15 (SIGTERM) received, exiting
+2016/06/20 08:49:56 [notice] 2334#0: exiting
+2016/06/20 08:49:56 [notice] 2333#0: exiting
+2016/06/20 08:49:56 [notice] 2333#0: exit
+2016/06/20 08:49:56 [notice] 2330#0: signal 17 (SIGCHLD) received
+2016/06/20 08:49:56 [notice] 2330#0: cache manager process 2334 exited with code 0
+2016/06/20 08:49:56 [notice] 2330#0: signal 29 (SIGIO) received
+2016/06/20 08:49:56 [notice] 2330#0: signal 17 (SIGCHLD) received
+2016/06/20 08:49:56 [notice] 2330#0: worker process 2333 exited with code 0
+2016/06/20 08:49:56 [notice] 2330#0: exit
+2016/06/20 08:49:58 [notice] 2407#0: using the "epoll" event method
+2016/06/20 08:49:58 [notice] 2407#0: nginx/1.10.1
+2016/06/20 08:49:58 [notice] 2407#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+2016/06/20 08:49:58 [notice] 2407#0: OS: Linux 3.13.0-74-generic
+2016/06/20 08:49:58 [notice] 2407#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/06/20 08:49:58 [notice] 2408#0: start worker processes
+2016/06/20 08:49:58 [notice] 2408#0: start worker process 2411
+2016/06/20 08:49:58 [notice] 2408#0: start cache manager process 2412
+2016/06/20 08:50:12 [info] 2411#0: *1 client connected '127.0.0.1'
+2016/06/20 08:50:12 [info] 2411#0: *1 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:50:12 [info] 2411#0: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:50:12 [info] 2411#0: *1 publish: name='jair' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:50:12 [info] 2411#0: *1 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:50:39 [info] 2411#0: *3 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:52:19 [info] 2411#0: *1 exec: child 2414 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:52:19 [info] 2411#0: *1 exec: terminating child 2414, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:52:19 [notice] 2411#0: signal 17 (SIGCHLD) received
+2016/06/20 08:52:19 [notice] 2411#0: unknown process 2414 exited with code 1
+2016/06/20 08:52:19 [info] 2411#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:52:24 [info] 2411#0: *1 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:54:29 [info] 2411#0: *8 client 52.91.184.228 closed keepalive connection
+2016/06/20 08:54:32 [info] 2411#0: *1 exec: child 2415 exited; ignoring, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:54:32 [info] 2411#0: *1 exec: terminating child 2415, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:54:32 [notice] 2411#0: signal 17 (SIGCHLD) received
+2016/06/20 08:54:32 [notice] 2411#0: unknown process 2415 exited with code 1
+2016/06/20 08:54:32 [info] 2411#0: epoll_wait() failed (4: Interrupted system call)
+2016/06/20 08:54:37 [info] 2411#0: *1 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:55:21 [notice] 2408#0: signal 15 (SIGTERM) received, exiting
+2016/06/20 08:55:21 [notice] 2412#0: exiting
+2016/06/20 08:55:21 [notice] 2408#0: signal 17 (SIGCHLD) received
+2016/06/20 08:55:21 [notice] 2408#0: cache manager process 2412 exited with code 0
+2016/06/20 08:55:21 [notice] 2408#0: signal 29 (SIGIO) received
+2016/06/20 08:55:21 [notice] 2411#0: exiting
+2016/06/20 08:55:21 [notice] 2411#0: exit
+2016/06/20 08:55:21 [notice] 2408#0: signal 17 (SIGCHLD) received
+2016/06/20 08:55:21 [notice] 2408#0: worker process 2411 exited with code 0
+2016/06/20 08:55:21 [notice] 2408#0: exit
+2016/06/20 08:55:22 [notice] 2447#0: using the "epoll" event method
+2016/06/20 08:55:22 [notice] 2447#0: nginx/1.10.1
+2016/06/20 08:55:22 [notice] 2447#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+2016/06/20 08:55:22 [notice] 2447#0: OS: Linux 3.13.0-74-generic
+2016/06/20 08:55:22 [notice] 2447#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/06/20 08:55:22 [notice] 2448#0: start worker processes
+2016/06/20 08:55:22 [notice] 2448#0: start worker process 2451
+2016/06/20 08:55:22 [notice] 2448#0: start cache manager process 2452
+2016/06/20 08:55:37 [info] 2451#0: *3 client connected '52.38.144.179'
+2016/06/20 08:55:37 [info] 2451#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://52.38.144.179:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:55:38 [info] 2451#0: *3 createStream, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:55:38 [info] 2451#0: *3 publish: name='jair' args='' type=live silent=0, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:55:38 [info] 2451#0: *3 exec: starting managed child 'ffmpeg', client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:55:39 [info] 2451#0: *2 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:55:59 [info] 2451#0: *4 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:55:59 [info] 2451#0: *5 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:55:59 [info] 2451#0: *6 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:55:59 [info] 2451#0: *7 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:55:59 [info] 2451#0: *8 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:56:23 [info] 2451#0: *3 deleteStream, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:56:23 [info] 2451#0: *3 exec: terminating child 2454, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:56:23 [notice] 2451#0: signal 17 (SIGCHLD) received
+2016/06/20 08:56:23 [alert] 2451#0: unknown process 2454 exited on signal 9
+2016/06/20 08:56:23 [info] 2451#0: *3 disconnect, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:56:23 [info] 2451#0: *3 deleteStream, client: 52.38.144.179, server: 0.0.0.0:1935
+2016/06/20 08:56:30 [notice] 2448#0: signal 15 (SIGTERM) received, exiting
+2016/06/20 08:56:30 [notice] 2452#0: exiting
+2016/06/20 08:56:30 [notice] 2448#0: signal 17 (SIGCHLD) received
+2016/06/20 08:56:30 [notice] 2448#0: cache manager process 2452 exited with code 0
+2016/06/20 08:56:30 [notice] 2448#0: signal 29 (SIGIO) received
+2016/06/20 08:56:30 [notice] 2451#0: exiting
+2016/06/20 08:56:30 [notice] 2451#0: exit
+2016/06/20 08:56:30 [notice] 2448#0: signal 17 (SIGCHLD) received
+2016/06/20 08:56:30 [notice] 2448#0: worker process 2451 exited with code 0
+2016/06/20 08:56:30 [notice] 2448#0: exit
+2016/06/20 08:56:31 [notice] 2485#0: using the "epoll" event method
+2016/06/20 08:56:31 [notice] 2485#0: nginx/1.10.1
+2016/06/20 08:56:31 [notice] 2485#0: built by gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+2016/06/20 08:56:31 [notice] 2485#0: OS: Linux 3.13.0-74-generic
+2016/06/20 08:56:31 [notice] 2485#0: getrlimit(RLIMIT_NOFILE): 1024:4096
+2016/06/20 08:56:31 [notice] 2486#0: start worker processes
+2016/06/20 08:56:31 [notice] 2486#0: start worker process 2489
+2016/06/20 08:56:31 [notice] 2486#0: start cache manager process 2490
+2016/06/20 08:56:41 [info] 2489#0: *3 client connected '127.0.0.1'
+2016/06/20 08:56:41 [info] 2489#0: *3 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:56:41 [info] 2489#0: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:56:41 [info] 2489#0: *3 publish: name='jair' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:56:41 [info] 2489#0: *3 exec: starting managed child 'ffmpeg', client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:56:49 [info] 2489#0: *2 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:57:49 [info] 2489#0: *5 client closed connection while waiting for request, client: 201.230.158.92, server: 0.0.0.0:80
+2016/06/20 08:58:38 [info] 2489#0: *4 client 201.230.158.92 closed keepalive connection
+2016/06/20 08:58:40 [info] 2489#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:58:40 [info] 2489#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:58:40 [info] 2489#0: *3 exec: terminating child 2492, client: 127.0.0.1, server: 0.0.0.0:1935
+2016/06/20 08:58:40 [notice] 2489#0: signal 17 (SIGCHLD) received
+2016/06/20 08:58:40 [alert] 2489#0: unknown process 2492 exited on signal 9
+2016/06/20 11:16:36 [info] 2489#0: *6 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "ÂÜMæy≤A"
+2016/06/20 18:41:54 [error] 2489#0: *8 open() "/usr/local/nginx/html/robots.txt" failed (2: No such file or directory), client: 52.29.170.101, server: 52.38.144.179, request: "HEAD /robots.txt HTTP/1.0"
+2016/06/20 18:41:54 [info] 2489#0: *8 recv() failed (104: Connection reset by peer), client: 52.29.170.101, server: 52.38.144.179, request: "HEAD /robots.txt HTTP/1.0"
+2016/06/21 02:10:08 [error] 2489#0: *10 open() "/usr/local/nginx/html/script" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /script HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:08 [error] 2489#0: *11 open() "/usr/local/nginx/html/jenkins/script" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /jenkins/script HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:08 [error] 2489#0: *12 open() "/usr/local/nginx/html/hudson/script" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /hudson/script HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:08 [error] 2489#0: *13 open() "/usr/local/nginx/html/login" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /login HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:08 [error] 2489#0: *14 open() "/usr/local/nginx/html/jenkins/login" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /jenkins/login HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:09 [error] 2489#0: *15 open() "/usr/local/nginx/html/hudson/login" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /hudson/login HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:09 [error] 2489#0: *16 open() "/usr/local/nginx/html/jmx-console" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /jmx-console HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:09 [error] 2489#0: *17 open() "/usr/local/nginx/html/manager/html" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /manager/html HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:09 [error] 2489#0: *18 open() "/usr/local/nginx/html/msd" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /msd HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:09 [error] 2489#0: *19 open() "/usr/local/nginx/html/mySqlDumper" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /mySqlDumper HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:09 [error] 2489#0: *20 open() "/usr/local/nginx/html/msd1.24stable" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /msd1.24stable HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:10 [error] 2489#0: *21 open() "/usr/local/nginx/html/msd1.24.4" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /msd1.24.4 HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:10 [error] 2489#0: *22 open() "/usr/local/nginx/html/mysqldumper" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /mysqldumper HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:10 [error] 2489#0: *23 open() "/usr/local/nginx/html/MySQLDumper" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /MySQLDumper HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:10 [error] 2489#0: *24 open() "/usr/local/nginx/html/mysql" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /mysql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:10 [error] 2489#0: *25 open() "/usr/local/nginx/html/sql" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /sql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:10 [error] 2489#0: *26 open() "/usr/local/nginx/html/phpmyadmin" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /phpmyadmin HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:11 [error] 2489#0: *27 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:11 [error] 2489#0: *28 open() "/usr/local/nginx/html/mysql" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /mysql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:11 [error] 2489#0: *29 open() "/usr/local/nginx/html/sql" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /sql HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:11 [error] 2489#0: *30 open() "/usr/local/nginx/html/myadmin" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /myadmin HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:11 [error] 2489#0: *31 open() "/usr/local/nginx/html/phpMyAdmin-4.2.1-all-languages" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /phpMyAdmin-4.2.1-all-languages HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:11 [error] 2489#0: *32 open() "/usr/local/nginx/html/phpMyAdmin-4.2.1-english" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /phpMyAdmin-4.2.1-english HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:12 [error] 2489#0: *34 open() "/usr/local/nginx/html/sqlite/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /sqlite/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:12 [error] 2489#0: *35 open() "/usr/local/nginx/html/SQLite/SQLiteManager-1.2.4/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /SQLite/SQLiteManager-1.2.4/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:12 [error] 2489#0: *36 open() "/usr/local/nginx/html/SQLiteManager-1.2.4/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /SQLiteManager-1.2.4/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:12 [error] 2489#0: *37 open() "/usr/local/nginx/html/sqlitemanager/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /sqlitemanager/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:13 [error] 2489#0: *38 open() "/usr/local/nginx/html/SQlite/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /SQlite/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 02:10:13 [error] 2489#0: *39 open() "/usr/local/nginx/html/SQLiteManager/main.php" failed (2: No such file or directory), client: 75.103.110.47, server: 52.38.144.179, request: "GET /SQLiteManager/main.php HTTP/1.1", host: "52.38.144.179:80"
+2016/06/21 09:53:45 [error] 2489#0: *40 open() "/usr/local/nginx/html/xmlrpc.php" failed (2: No such file or directory), client: 195.2.253.157, server: 52.38.144.179, request: "GET /xmlrpc.php HTTP/1.1", host: "52.38.144.179"
+2016/06/21 09:53:45 [info] 2489#0: *40 client 195.2.253.157 closed keepalive connection
+2016/06/21 10:39:47 [info] 2489#0: *41 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "H˛§µ5m÷‰nLó∑[J¥Nm£R‘sÚr¢ÅMs3Ij¸Ikët·Íg›uÂTM±7õùªWy'me“ÖÂë4¸û"
+2016/06/21 18:45:17 [info] 2489#0: *43 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:17 [info] 2489#0: *45 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:17 [info] 2489#0: *44 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:17 [info] 2489#0: *46 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:17 [info] 2489#0: *47 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:54 [info] 2489#0: *50 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:54 [info] 2489#0: *49 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:54 [info] 2489#0: *48 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:45:54 [info] 2489#0: *51 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 18:46:22 [error] 2489#0: *52 open() "/HLS/live/jair/index.m3u8" failed (2: No such file or directory), client: 181.176.37.157, server: 52.38.144.179, request: "GET /live/jair/index.m3u8 HTTP/1.1", host: "52.38.144.179", referrer: "http://localhost/webVideo/single.html"
+2016/06/21 18:46:34 [info] 2489#0: *53 client closed connection while waiting for request, client: 181.176.37.157, server: 0.0.0.0:80
+2016/06/21 19:55:44 [info] 2489#0: *54 client 184.191.33.203 closed keepalive connection
+2016/06/22 01:52:38 [info] 2489#0: *55 client closed connection while waiting for request, client: 201.166.192.66, server: 0.0.0.0:80
+2016/06/22 01:52:38 [error] 2489#0: *56 open() "/usr/local/nginx/html/hndUnblock.cgi" failed (2: No such file or directory), client: 201.166.192.66, server: 52.38.144.179, request: "GET /hndUnblock.cgi HTTP/1.0", host: "52.38.144.179"
+2016/06/22 01:52:38 [error] 2489#0: *57 open() "/usr/local/nginx/html/tmUnblock.cgi" failed (2: No such file or directory), client: 201.166.192.66, server: 52.38.144.179, request: "GET /tmUnblock.cgi HTTP/1.0", host: "52.38.144.179"
+2016/06/22 09:42:05 [info] 2489#0: *58 client 131.162.130.180 closed keepalive connection (104: Connection reset by peer)
+2016/06/22 10:01:47 [info] 2489#0: *59 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "ãç"
+2016/06/22 10:52:07 [error] 2489#0: *60 open() "/usr/local/nginx/html/phpmyadmin" failed (2: No such file or directory), client: 211.140.169.244, server: 52.38.144.179, request: "GET /phpmyadmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpmyadmin"
+2016/06/22 13:13:01 [info] 2489#0: *61 client 141.212.122.193 closed keepalive connection
+2016/06/22 17:02:32 [error] 2489#0: *62 open() "/usr/local/nginx/html/w00tw00t.at.blackhats.romanian.anti-sec:)" failed (2: No such file or directory), client: 198.154.63.36, server: 52.38.144.179, request: "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1", host: "52.38.144.179"
+2016/06/22 17:02:32 [error] 2489#0: *63 open() "/usr/local/nginx/html/phpMyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 198.154.63.36, server: 52.38.144.179, request: "GET /phpMyAdmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/22 17:02:32 [error] 2489#0: *64 open() "/usr/local/nginx/html/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 198.154.63.36, server: 52.38.144.179, request: "GET /phpmyadmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/22 17:02:33 [error] 2489#0: *65 open() "/usr/local/nginx/html/pma/scripts/setup.php" failed (2: No such file or directory), client: 198.154.63.36, server: 52.38.144.179, request: "GET /pma/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/22 17:02:33 [error] 2489#0: *66 open() "/usr/local/nginx/html/myadmin/scripts/setup.php" failed (2: No such file or directory), client: 198.154.63.36, server: 52.38.144.179, request: "GET /myadmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/22 22:47:08 [info] 2489#0: *67 client 193.109.69.2 closed keepalive connection
+2016/06/23 12:16:32 [info] 2489#0: *69 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: " ∆ﬂfA¯ø¿C0ôˇ9 ô3úAœ'gÚ‘·†Ã6öñ®KåøÕ Ltä„¬Ÿ¯O+BˆF¶/"
+2016/06/23 16:25:30 [info] 2489#0: *70 client closed connection while waiting for request, client: 198.55.114.203, server: 0.0.0.0:80
+2016/06/23 16:25:32 [info] 2489#0: *71 client 198.55.114.203 closed keepalive connection
+2016/06/23 17:55:06 [info] 2489#0: *78 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 122.52.229.181, server: 52.38.144.179, request: "GET / HTTP/1.1"
+2016/06/23 17:58:33 [error] 2489#0: *79 open() "/usr/local/nginx/html/robots.txt" failed (2: No such file or directory), client: 180.97.106.162, server: 52.38.144.179, request: "GET http://www.baidu.com/robots.txt HTTP/1.1", host: "www.baidu.com"
+2016/06/23 17:58:38 [info] 2489#0: *79 client 180.97.106.162 closed keepalive connection
+2016/06/23 19:07:28 [error] 2489#0: *80 open() "/usr/local/nginx/html/script" failed (2: No such file or directory), client: 222.186.21.35, server: 52.38.144.179, request: "GET /script HTTP/1.1", host: "52.38.144.179"
+2016/06/23 19:07:46 [info] 2489#0: *80 client 222.186.21.35 closed keepalive connection
+2016/06/23 19:08:57 [error] 2489#0: *81 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 162.243.11.36, server: 52.38.144.179, request: "GET /favicon.ico HTTP/1.1", host: "52.38.144.179"
+2016/06/23 19:08:58 [info] 2489#0: *81 client 162.243.11.36 closed keepalive connection
+2016/06/23 19:27:43 [error] 2489#0: *82 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 162.243.11.36, server: 52.38.144.179, request: "GET /favicon.ico HTTP/1.1", host: "52.38.144.179"
+2016/06/23 19:27:43 [info] 2489#0: *82 client 162.243.11.36 closed keepalive connection
+2016/06/23 19:33:22 [error] 2489#0: *83 open() "/usr/local/nginx/html/xmlrpc.php" failed (2: No such file or directory), client: 89.248.174.4, server: 52.38.144.179, request: "GET /xmlrpc.php HTTP/1.1", host: "52.38.144.179"
+2016/06/23 19:33:23 [info] 2489#0: *83 client 89.248.174.4 closed keepalive connection
+2016/06/23 19:54:08 [error] 2489#0: *84 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 162.243.11.36, server: 52.38.144.179, request: "GET /favicon.ico HTTP/1.1", host: "52.38.144.179"
+2016/06/23 19:54:08 [info] 2489#0: *84 client 162.243.11.36 closed keepalive connection
+2016/06/24 10:30:14 [info] 2489#0: *85 client sent HTTP/1.1 request without "Host" header while reading client request headers, client: 141.212.122.129, server: 52.38.144.179, request: "GET /x HTTP/1.1"
+2016/06/24 11:32:06 [info] 2489#0: *86 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "Ç£ûë}\anG=#•"
+2016/06/25 00:12:27 [error] 2489#0: *87 open() "/usr/local/nginx/html/muieblackcat" failed (2: No such file or directory), client: 107.182.24.28, server: 52.38.144.179, request: "GET /muieblackcat HTTP/1.1", host: "52.38.144.179"
+2016/06/25 00:12:34 [error] 2489#0: *88 open() "/usr/local/nginx/html/pma/scripts/setup.php" failed (2: No such file or directory), client: 107.182.24.28, server: 52.38.144.179, request: "GET //pma/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 00:12:37 [error] 2489#0: *89 open() "/usr/local/nginx/html/MyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 107.182.24.28, server: 52.38.144.179, request: "GET //MyAdmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 00:12:37 [error] 2489#0: *90 open() "/usr/local/nginx/html/mysql/scripts/setup.php" failed (2: No such file or directory), client: 107.182.24.28, server: 52.38.144.179, request: "GET //mysql/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 00:12:40 [error] 2489#0: *91 open() "/usr/local/nginx/html/scripts/setup.php" failed (2: No such file or directory), client: 107.182.24.28, server: 52.38.144.179, request: "GET //scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 00:12:40 [error] 2489#0: *92 open() "/usr/local/nginx/html/admin/scripts/setup.php" failed (2: No such file or directory), client: 107.182.24.28, server: 52.38.144.179, request: "GET //admin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 05:43:43 [error] 2489#0: *93 open() "/usr/local/nginx/html/manager/html" failed (2: No such file or directory), client: 192.200.220.58, server: 52.38.144.179, request: "GET /manager/html HTTP/1.1", host: "52.38.144.179:80"
+2016/06/25 05:43:43 [info] 2489#0: *93 client 192.200.220.58 closed keepalive connection (104: Connection reset by peer)
+2016/06/25 07:59:09 [info] 2489#0: *94 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "]º˘GÑ<óô√£<≠¢C∏ôõæø’ÿd≈¡«£cø	xÛè∫mR™?•dÅítLò‰6≤O˝µEAìÓvh§ıì"
+2016/06/25 08:21:50 [info] 2489#0: *95 client 112.193.145.175 closed keepalive connection
+2016/06/25 16:11:55 [error] 2489#0: *96 open() "/usr/local/nginx/html/muieblackcat" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET /muieblackcat HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:55 [error] 2489#0: *97 open() "/usr/local/nginx/html/phpMyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //phpMyAdmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:56 [error] 2489#0: *98 open() "/usr/local/nginx/html/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //phpmyadmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:57 [error] 2489#0: *99 open() "/usr/local/nginx/html/pma/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //pma/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:57 [error] 2489#0: *100 open() "/usr/local/nginx/html/myadmin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //myadmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:57 [error] 2489#0: *101 open() "/usr/local/nginx/html/MyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //MyAdmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:58 [error] 2489#0: *102 open() "/usr/local/nginx/html/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:58 [error] 2489#0: *103 open() "/usr/local/nginx/html/admin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //admin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:11:59 [error] 2489#0: *104 open() "/usr/local/nginx/html/php/phpmyadmin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //php/phpmyadmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/25 16:12:00 [error] 2489#0: *105 open() "/usr/local/nginx/html/PhpMyAdmin/scripts/setup.php" failed (2: No such file or directory), client: 104.47.152.29, server: 52.38.144.179, request: "GET //PhpMyAdmin/scripts/setup.php HTTP/1.1", host: "52.38.144.179"
+2016/06/26 12:57:22 [info] 2489#0: *109 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "G%˙‡∏⁄JÙ¡èË≈Œ¯¬∂S•≤PÂ¥¨uPbbË˚Ñ¬ﬂó83¸¬êLp7Ü<Z'FØ…∆}tí∆ª.å="
+2016/06/27 00:09:51 [info] 2489#0: *110 client 191.96.249.54 closed keepalive connection
+2016/06/27 01:26:08 [error] 2489#0: *111 open() "/usr/local/nginx/html/xmlrpc.php" failed (2: No such file or directory), client: 191.96.249.54, server: 52.38.144.179, request: "GET /xmlrpc.php HTTP/1.1", host: "52.38.144.179"
+2016/06/27 01:26:08 [info] 2489#0: *111 client 191.96.249.54 closed keepalive connection
+2016/06/27 03:07:30 [error] 2489#0: *112 open() "/usr/local/nginx/html/manager/html" failed (2: No such file or directory), client: 23.247.97.142, server: 52.38.144.179, request: "GET /manager/html HTTP/1.1", host: "52.38.144.179:80"
+2016/06/27 03:07:30 [info] 2489#0: *112 client 23.247.97.142 closed keepalive connection (104: Connection reset by peer)
+2016/06/27 05:24:52 [info] 2489#0: *113 client 111.93.159.34 closed keepalive connection
+2016/06/27 11:51:18 [info] 2489#0: *114 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "ˇ>O»ñ‰Í∑Ñ$ ¡∞72ëùíıJœô≈]/å”}ûêˇö0‰T"
+2016/06/27 19:33:06 [error] 2489#0: *115 open() "/usr/local/nginx/html/script" failed (2: No such file or directory), client: 222.186.21.35, server: 52.38.144.179, request: "GET /script HTTP/1.1", host: "52.38.144.179"
+2016/06/27 19:33:07 [info] 2489#0: *115 client 222.186.21.35 closed keepalive connection
+2016/06/28 01:54:42 [info] 2489#0: *116 client closed connection while waiting for request, client: 187.160.30.43, server: 0.0.0.0:80
+2016/06/28 01:54:42 [error] 2489#0: *117 open() "/usr/local/nginx/html/command.php" failed (2: No such file or directory), client: 187.160.30.43, server: 52.38.144.179, request: "POST /command.php HTTP/1.0", host: "52.38.144.179"
+2016/06/28 07:51:50 [info] 2489#0: *118 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "yxùÜÙáb:Û≥ö^|ıE<AzIìµdË/ºÖiÆ…+ë,Ú“ß"@ëf…°ŒXß#´Øè^&˛phÁ"
+2016/06/28 20:44:25 [info] 2489#0: *121 client closed connection while waiting for request, client: 177.224.69.225, server: 0.0.0.0:80
+2016/06/28 20:44:25 [error] 2489#0: *122 open() "/usr/local/nginx/html/command.php" failed (2: No such file or directory), client: 177.224.69.225, server: 52.38.144.179, request: "POST /command.php HTTP/1.0", host: "52.38.144.179"
+2016/06/28 23:53:25 [info] 2489#0: *123 client closed connection while waiting for request, client: 222.73.85.196, server: 0.0.0.0:80
+2016/06/29 09:05:02 [info] 2489#0: *124 client sent invalid method while reading client request line, client: 124.190.83.187, server: 52.38.144.179, request: "ë   p1åƒm ˛§m´=«ñ¯j8WÔºπ™pGmÓÂ~‹r–Zõ™â¥´·¡ +ﬂ4r≥∆€∏˛WRƒrÁÊ¯ZËÀ˜«ôıïÅ1RGÿéÆ/1_t˝ä]›ÒvÙ1ÄàìÎ_∂HVæ"
+2016/06/29 10:22:59 [info] 2489#0: *125 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "AR4`©ÇB€˚a√æ≠Àü∞,ùÀ|Ò√†i"∞è9B&§h¿Ç˙∂∆|À¨+´v‘ò0¸ ÑF_Èçæ€oôx"
+2016/06/29 10:35:26 [info] 2489#0: *126 client sent invalid method while reading client request line, client: 61.216.2.15, server: 52.38.144.179, request: ""
+2016/06/29 11:41:58 [info] 2489#0: *127 client 198.20.70.114 closed keepalive connection
+2016/06/29 11:41:58 [error] 2489#0: *128 open() "/usr/local/nginx/html/robots.txt" failed (2: No such file or directory), client: 198.20.70.114, server: 52.38.144.179, request: "GET /robots.txt HTTP/1.1", host: "52.38.144.179"
+2016/06/29 11:41:58 [info] 2489#0: *128 client 198.20.70.114 closed keepalive connection (104: Connection reset by peer)
+2016/06/29 11:41:58 [error] 2489#0: *129 open() "/usr/local/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 198.20.70.114, server: 52.38.144.179, request: "GET /sitemap.xml HTTP/1.1", host: "52.38.144.179"
+2016/06/29 11:41:58 [info] 2489#0: *129 client 198.20.70.114 closed keepalive connection (104: Connection reset by peer)
+2016/06/29 15:34:40 [info] 2489#0: *130 client 141.212.122.161 closed keepalive connection
+2016/06/29 17:31:38 [info] 2489#0: *131 client 120.24.4.228 closed keepalive connection
+2016/06/30 06:25:47 [error] 2489#0: *134 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 211.140.169.244, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/06/30 11:00:41 [info] 2489#0: *135 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "¸çrÙ˚¯Êe…ùr±ëù}]Õ+BÜôı;≤G=!Y~ÊRü°JQ’ˆf»/JøY/PíÌ"∫⁄"
+2016/06/30 13:16:57 [info] 2489#0: *136 recv() failed (104: Connection reset by peer) while waiting for request, client: 139.162.226.133, server: 0.0.0.0:80
+2016/06/30 13:16:57 [info] 2489#0: *137 recv() failed (104: Connection reset by peer) while sending response to client, client: 139.162.226.133, server: 52.38.144.179, request: "GET / HTTP/1.0"
+2016/06/30 17:50:33 [error] 2489#0: *140 open() "/usr/local/nginx/html/robots.txt" failed (2: No such file or directory), client: 180.97.106.37, server: 52.38.144.179, request: "GET http://www.baidu.com/robots.txt HTTP/1.1", host: "www.baidu.com"
+2016/06/30 17:50:34 [info] 2489#0: *140 client 180.97.106.37 closed keepalive connection
+2016/06/30 19:09:26 [error] 2489#0: *141 open() "/usr/local/nginx/html/plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php" failed (2: No such file or directory), client: 191.96.249.231, server: 52.38.144.179, request: "GET /plugins/system/plugin_googlemap2/plugin_googlemap2_proxy.php?url=http://191.96.249.231/shodanhq HTTP/1.0"
+2016/06/30 21:30:53 [info] 2489#0: *142 client closed connection while waiting for request, client: 173.227.0.76, server: 0.0.0.0:80
+2016/06/30 21:30:54 [error] 2489#0: *143 open() "/usr/local/nginx/html/invoker/JMXInvokerServlet" failed (2: No such file or directory), client: 173.227.0.76, server: 52.38.144.179, request: "GET /invoker/JMXInvokerServlet HTTP/1.1", host: "52.38.144.179"
+2016/06/30 21:30:54 [info] 2489#0: *143 client 173.227.0.76 closed keepalive connection
+2016/07/01 00:09:26 [error] 2489#0: *144 open() "/usr/local/nginx/html/wp/wp-login.php" failed (2: No such file or directory), client: 94.102.48.193, server: 52.38.144.179, request: "GET /wp/wp-login.php HTTP/1.0"
+2016/07/01 05:12:49 [error] 2489#0: *145 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 211.140.169.244, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/07/01 10:30:52 [info] 2489#0: *146 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "*Öy|nÀÌpó'¬’zÜ‡Ëàr˙#˝=ÏÆΩ/ÇI‘"
+2016/07/01 12:17:40 [error] 2489#0: *147 open() "/usr/local/nginx/html/manager/html" failed (2: No such file or directory), client: 2.230.178.184, server: 52.38.144.179, request: "GET /manager/html HTTP/1.1", host: "52.38.144.179"
+2016/07/01 12:17:40 [info] 2489#0: *147 client 2.230.178.184 closed keepalive connection (104: Connection reset by peer)
+2016/07/01 16:04:01 [error] 2489#0: *148 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 58.221.46.206, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/07/01 20:58:34 [error] 2489#0: *149 open() "/usr/local/nginx/html/script" failed (2: No such file or directory), client: 222.186.21.35, server: 52.38.144.179, request: "GET /script HTTP/1.1", host: "52.38.144.179"
+2016/07/01 20:58:34 [info] 2489#0: *149 client 222.186.21.35 closed keepalive connection
+2016/07/02 00:54:46 [info] 2489#0: *150 recv() failed (104: Connection reset by peer) while waiting for request, client: 5.196.88.4, server: 0.0.0.0:80
+2016/07/02 03:00:42 [info] 2489#0: *151 client 84.95.2.179 closed keepalive connection
+2016/07/02 06:04:51 [error] 2489#0: *153 open() "/usr/local/nginx/html/favicon.ico" failed (2: No such file or directory), client: 201.230.158.51, server: 52.38.144.179, request: "GET /favicon.ico HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/"
+2016/07/02 06:05:06 [info] 2489#0: *152 client closed connection while waiting for request, client: 201.230.158.51, server: 0.0.0.0:80
+2016/07/02 08:33:34 [info] 2489#0: *154 client 141.212.122.145 closed keepalive connection
+2016/07/02 09:20:09 [info] 2489#0: *155 client sent invalid method while reading client request line, client: 169.229.3.91, server: 52.38.144.179, request: "”KÈ,¥Òó“¶«t;∑*\‰9aOø#9Ω€¥üÎ°@:…åy(zï•\xúç tD¡‡*rÚd¿Z¨)‰ö"
+2016/07/02 18:24:09 [error] 2489#0: *156 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 58.221.46.206, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/07/02 18:24:21 [error] 2489#0: *156 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 58.221.46.206, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
+2016/07/02 18:24:57 [error] 2489#0: *156 open() "/usr/local/nginx/html/phpMyAdmin" failed (2: No such file or directory), client: 58.221.46.206, server: 52.38.144.179, request: "GET /phpMyAdmin HTTP/1.1", host: "52.38.144.179", referrer: "http://52.38.144.179/phpMyAdmin"
